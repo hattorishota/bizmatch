@@ -23,12 +23,12 @@ export default {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     { src: '~/assets/sass/_styles.scss'},
-    'swiper/css/swiper.css',
+    // 'swiper/css/swiper.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/swiper.js', mode: 'client' }
+    { src: '@/plugins/vue-awesome-swiper', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -48,11 +48,7 @@ export default {
   modules: [],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    vendor: [
-      'swiper',
-    ],
-  },
+  build: {},
 
   // Home dhir
   router: {
