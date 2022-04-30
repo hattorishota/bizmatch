@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import TopHeader from "./CompanyTopHeader.vue";
+import TopHeader from "@/components/company/top/CompanyTopHeader.vue";
 
 export default {
   components: {

@@ -1,24 +1,25 @@
 <template>
   <div id="top-header">
-    <div class="logo"><router-link to="/"><img src="" alt="Logo" class="header__logo"></router-link></div>
+    <div class="logo"><router-link to="/"><img :src="logoImg" alt="Logo" class="header__logo"></router-link></div>
     <nav class="nav">
-      <router-link to="/worker/register">会員登録(無料)</router-link>
-      <router-link to="/worker/login">ログインする</router-link>
+      <router-link to="/worker/auth/register">会員登録(無料)</router-link>
+      <router-link to="/worker/login/loginpage">ログインする</router-link>
     </nav>
   </div>
 </template>
 
 <script>
-
+import LogoImg from '~/assets/images/logo/logo.png'
 
 export default {
   data() {
     return {
-
+      logoImg: LogoImg,
     };
   },
   computed: {
-    
+
+
   }
 }
 </script>

@@ -2,9 +2,8 @@
   <div id="top-header">
     <div class="logo"><router-link to="/"><img :src="logoImg" alt="Logo" class="header__logo"></router-link></div>
     <nav class="nav">
-      <router-link to="/">TOP</router-link>
-      <router-link to="/worker">ユーザーはこちら</router-link>
-      <router-link to="/company">企業様はこちら</router-link>
+      <router-link to="worker/TopPage">ユーザーはこちら</router-link>
+      <router-link to="company/TopPage">企業様はこちら</router-link>
     </nav>
   </div>
 </template>
