@@ -17,7 +17,7 @@
         </div>
         <div class="flex">
           <div class="btn-wrap blue">
-            <router-link to="/worker/auth/register">無料会員登録</router-link>
+            <router-link to="/worker/auth/registerinput">無料会員登録</router-link>
           </div>
           <div class="btn-wrap">
             <router-link to="/worker/login/loginpage">ログインする</router-link>
