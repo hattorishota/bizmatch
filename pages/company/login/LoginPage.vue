@@ -1,7 +1,9 @@
 <template>
   <div id="company-top">
     <CompanyTopHeader />
-    <h2>企業ログインページ</h2>
+    <div class="login">
+      <h2>ユーザーログイン</h2>
+    </div>
   </div>
 </template>
 

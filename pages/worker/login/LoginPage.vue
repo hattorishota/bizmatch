@@ -1,7 +1,9 @@
 <template>
   <div id="worker-top">
     <WorkerTopHeader />
-    <h2>ユーザーログインページ</h2>
+    <div class="login">
+      <h2>ユーザーログイン</h2>
+    </div>
   </div>
 </template>
 
