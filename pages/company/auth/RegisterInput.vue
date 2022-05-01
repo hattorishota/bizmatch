@@ -1,7 +1,9 @@
 <template>
   <div id="company-register">
     <CompanyTopHeader />
-    <h2>企業会員登録画面</h2>
+    <div class="auth">
+      <h2>企業会員登録画面</h2>
+    </div>
   </div>
 </template>
 

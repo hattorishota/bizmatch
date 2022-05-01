@@ -62,7 +62,7 @@
     <section class="ad">
       <p class="txt">まずは以下から会員登録をしてみましょう！</p>
       <div class="btn-box">
-        <router-link to="/worker/auth/register">無料会員登録する</router-link>
+        <router-link to="/worker/auth/registerinput">無料会員登録する</router-link>
       </div>
     </section>
     <TopFooter />

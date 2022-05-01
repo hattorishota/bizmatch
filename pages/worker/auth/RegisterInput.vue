@@ -1,7 +1,9 @@
 <template>
   <div id="worker-register">
     <WorkerTopHeader />
-    <h2>ユーザー会員登録画面</h2>
+    <div class="auth">
+      <h2>ユーザー会員登録画面</h2>
+    </div>
   </div>
 </template>
 
