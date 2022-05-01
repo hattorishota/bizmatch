@@ -12,11 +12,13 @@
       }
     }
   }
-}
-#main {
-  .nav {
-    display: flex;
-    flex-direction: column;
+  .fv {
+    height: calc(100vh - 100px);
+
+    img {
+      object-fit: cover;
+      height: 100%;
+    }
   }
 }
 #top-header {
@@ -43,6 +45,12 @@
   .nav {
     display: flex;
     gap: 15px;
+  }
+}
+#main {
+  .nav {
+    display: flex;
+    flex-direction: column;
   }
 }
 h2 {
