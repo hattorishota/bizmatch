@@ -8,7 +8,7 @@
         </div>
         <div class="txt-box">
           <p class="txt1">エンジニアとして就職・転職・副業がしたいなら</p>
-          <h1 class="title"><img :src="logoImg" alt=""></h1>
+          <h2 class="title"><img :src="logoImg" alt=""></h2>
           <router-link to="/worker/toppage" class="anchor">求職者様はこちら</router-link>
           /
           <router-link to="/company/toppage" class="anchor">企業様はこちら</router-link>

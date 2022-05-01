@@ -1,6 +1,6 @@
 <template>
   <div id="top-header">
-    <div class="logo"><router-link to="/"><img :src="logoImg" alt="Logo" class="header__logo"></router-link></div>
+    <h1 class="logo"><router-link to="/"><img :src="logoImg" alt="Logo" class="header__logo"></router-link></h1>
     <nav class="nav">
       <router-link to="/worker/auth/register">会員登録(無料)</router-link>
       <router-link to="/worker/login/loginpage">ログインする</router-link>
