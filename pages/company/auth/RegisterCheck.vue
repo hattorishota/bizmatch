@@ -1,5 +1,5 @@
 <template>
-  <div id="company-register">
+  <div id="register">
     <CompanyTopHeader />
     <div class="auth">
       <div class="wrap">
