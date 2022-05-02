@@ -2,7 +2,7 @@
   <div id="company-top">
     <CompanyTopHeader />
     <div class="login">
-      <h2>ユーザーログイン</h2>
+      <h2>企業ログイン</h2>
     </div>
   </div>
 </template>

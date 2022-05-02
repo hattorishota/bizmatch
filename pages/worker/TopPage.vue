@@ -32,7 +32,7 @@
       <div class="wrap">
         <div class="title-box">
           <h2 class="title">フリーランスエンジニアの皆さんのお悩み解決します</h2>
-          <span class="sub-title">テクストなら自分のスキル/レベルに合う案件が見つかる！</span>
+          <span class="sub-title">Bizmatchなら自分のスキル/レベルに合う案件が見つかる！</span>
         </div>
         <ul class="ul">
           <li class="li">
