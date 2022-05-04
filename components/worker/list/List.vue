@@ -1,10 +1,10 @@
 <template>
-  <div id="worker-dashboard">
+  <div id="worker-list">
     <WorkerTopHeader />
     <div class="wrapper">
       <SideBar />
       <section class="section">
-        <h2>ダッシュボード</h2>
+        <h2>案件一覧</h2>
       </section>
     </div>
     <TopFooter />

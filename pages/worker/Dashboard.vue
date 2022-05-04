@@ -1,24 +1,16 @@
 <template>
-  <div id="worker-dashboard">
-    <WorkerTopHeader />
-    <div class="wrapper">
-      ダッシュボード
-    </div>
-    <TopFooter />
+  <div id="container">
+    <WorkerDashboard />
   </div>
 </template>
 
 <script>
-import TopFooter from "@/components/TopFooter.vue";
-import WorkerTopHeader from "@/components/worker/top/WorkerTopHeader.vue";
-// import WorkerDashboard from "@/components/worker/dashboard/";
+import WorkerDashboard from "@/components/worker/dashboard/Dashboard.vue";
 
 export default {
-  name: 'WorkerRegister',
+  name: 'worker-dashboard',
   components: {
-    WorkerTopHeader,
-    TopFooter,
-    // WorkerDashboard,
+    WorkerDashboard
   }
 }
 </script>

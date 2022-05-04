@@ -1,10 +1,10 @@
 <template>
-  <div id="worker-dashboard">
+  <div id="worker-profile">
     <WorkerTopHeader />
     <div class="wrapper">
       <SideBar />
       <section class="section">
-        <h2>ダッシュボード</h2>
+        <h2>プロフィール</h2>
       </section>
     </div>
     <TopFooter />

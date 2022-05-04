@@ -1,8 +1,11 @@
 <template>
   <div id="worker-dashboard">
-    <CompanyTopHeader />
+    <WorkerTopHeader />
     <div class="wrapper">
-      ダッシュボード
+      <SideBar />
+      <section class="section">
+        <h2>ダッシュボード</h2>
+      </section>
     </div>
     <TopFooter />
   </div>
@@ -10,14 +13,16 @@
 
 <script>
 import TopFooter from "@/components/TopFooter.vue";
-import CompanyTopHeader from "@/components/company/top/CompanyTopHeader.vue";
+import WorkerTopHeader from "@/components/worker/top/WorkerTopHeader.vue";
+import SideBar from "@/components/worker/SideBar.vue";
 // import WorkerDashboard from "@/components/worker/dashboard/";
 
 export default {
   name: 'WorkerRegister',
   components: {
-    CompanyTopHeader,
+    WorkerTopHeader,
     TopFooter,
+    SideBar,
     // WorkerDashboard,
   }
 }

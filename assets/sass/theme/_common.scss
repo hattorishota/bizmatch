@@ -68,6 +68,24 @@
     }
   }
 }
+
+#__layout {
+  #container {
+    .wrapper {
+      display: flex;
+      gap: 30px;
+      padding: 150px 0 50px;
+
+      .section {
+        width: 75%;
+        background-color: #f5f5f5;
+        border-radius: 20px;
+        padding: 20px;
+      }
+    }
+  }
+}
+
 #worker-dashboard {
   .wrapper {
     padding-top: 100px;
