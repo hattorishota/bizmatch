@@ -55,4 +55,23 @@ export default {
   router: {
     base: '/bizmatch/'
   },
+
+  // @vue/auth: https://reffect.co.jp/vue/nuxt-js-auth-setting-with-backend
+  auth: {
+    strategies: {
+      local: {
+        endpoints: {
+          login: { url: '/api/auth/login', method: 'post', propertyName: 'token' },
+          logout: { url: '/api/auth/logout', method: 'post' },
+          user: { url: '/api/auth/user', method: 'get', propertyName: 'user' }
+        },
+        // tokenRequired: true,
+        // tokenType: 'bearer'
+      }
+    }
+  },
+
+  axios: {
+    baseURL: 'http://localhost:3000/bizmatch/',
+  },
 }
